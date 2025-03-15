@@ -11,7 +11,7 @@ export default function Home() {
         layout='fill'
         objectFit='cover'
       />
-      <div className='flex flex-col space-y-4 text-xl md:text-5xl text-center select-none pt-60 md:pt-20'>
+      <div className='flex flex-col space-y-4 text-xl md:text-5xl text-center select-none pt-52 md:pt-20'>
         <div className='md:text-3xl italic text-orange-100'>
           LỊCH SỬ ĐẢNG CỘNG SẢN VIỆT NAM
         </div>
@@ -22,7 +22,7 @@ export default function Home() {
       <div className='flex justify-center text-center mt-4'>
         <Link
           href='/boi-canh'
-          className='group relative inline-block overflow-hidden rounded px-12 py-3 text-sm text-orange-100 font-medium'
+          className='-z-10 group relative inline-block overflow-hidden rounded px-12 py-3 text-sm text-orange-100 font-medium'
         >
           Tìm hiểu
           <span className='absolute left-0 top-0 w-full border-t-2 border-red-100 animate-top'></span>
