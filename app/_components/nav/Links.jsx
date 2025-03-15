@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React from 'react';
 
-const paths = [
+export const paths = [
   { path: '/', title: 'TRANG CHỦ' },
   { path: '/boi-canh', title: 'BỐI CẢNH' },
   { path: '/quoc-hoi-vi', title: 'QUỐC HỘI KHÓA VI' },
