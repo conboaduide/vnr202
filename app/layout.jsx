@@ -1,16 +1,8 @@
-import { Geist, Geist_Mono } from 'next/font/google';
+import { Noto_Sans_Mono } from 'next/font/google';
 import './globals.css';
 import NavBar from './_components/nav/NavBar';
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
-});
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
-});
+const noto_sans_mono = Noto_Sans_Mono({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Lịch sử Đảng - Chương 3',
@@ -19,9 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${noto_sans_mono.className}`}>
         <NavBar />
         {children}
       </body>
