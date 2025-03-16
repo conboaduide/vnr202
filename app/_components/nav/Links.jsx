@@ -9,6 +9,7 @@ export const paths = [
   { path: '/quoc-hoi-vi', title: 'QUỐC HỘI KHÓA VI' },
   { path: '/dai-hoi-iv', title: 'ĐẠI HỘI IV' },
   { path: '/dai-hoi-v', title: 'ĐẠI HỘI V' },
+  { path: '/dot-pha', title: 'CÁC BƯỚC ĐỘT PHÁ' },
   { path: '/nguon', title: 'NGUỒN' },
 ];
 

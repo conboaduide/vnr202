@@ -10,7 +10,7 @@ export default function Home() {
         alt='dcsvn'
         fill
       />
-      <div className='flex flex-col space-y-4 text-xl md:text-5xl text-center select-none pt-48 md:pt-32'>
+      <div className='flex flex-col space-y-4 text-xl md:text-5xl text-center select-none pt-72 md:pt-60'>
         <div className='md:text-3xl italic text-orange-100'>
           LỊCH SỬ ĐẢNG CỘNG SẢN VIỆT NAM
         </div>
