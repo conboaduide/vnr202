@@ -69,3 +69,21 @@ body {
 .animate-left {
   animation: border-run-left 4s ease-in-out 12s infinite;
 }
+
+.scrollbar::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #3e3e3e;
+  border-radius: 100vh;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}

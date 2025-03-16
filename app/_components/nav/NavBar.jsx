@@ -5,7 +5,7 @@ import MobileMenu from './MobileMenu';
 
 const NavBar = () => {
   return (
-    <div className='sticky top-0 px-4 md:px-8 py-6 flex items-center justify-between w-full z-20 bg-black/25'>
+    <div className='absolute top-0 px-4 md:px-8 py-6 flex items-center justify-between w-full z-20 bg-black/25'>
       <Image
         className='opacity-90 w-12 h-12 md:w-16 md:h-16'
         src='/bualiem.png'

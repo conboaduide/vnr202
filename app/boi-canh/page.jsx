@@ -4,7 +4,7 @@ import React from 'react';
 
 const BoiCanh = () => {
   return (
-    <div>
+    <div className='pt-28'>
       <Image
         className='!fixed blur-sm -z-10 brightness-50 object-cover'
         src='/daithangmuaxuan.png'
@@ -23,7 +23,7 @@ const BoiCanh = () => {
         </div>
         <div className='md:w-3/5 text-center py-7'>
           <div className='text-2xl font-bold text-white'>
-            Bối cảnh lịch sử Việt Nam sau 30/4/1975
+            Bối cảnh lịch sử sau 30/4/1975
           </div>
           <div className='text-left px-10 py-4 space-y-2'>
             <div>
