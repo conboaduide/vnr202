@@ -5,11 +5,10 @@ export default function Home() {
   return (
     <div>
       <Image
-        className='blur-sm -z-10 brightness-50'
+        className='!fixed blur-sm -z-10 brightness-50 object-cover'
         src='/dcsvn.png'
         alt='dcsvn'
-        layout='fill'
-        objectFit='cover'
+        fill
       />
       <div className='flex flex-col space-y-4 text-xl md:text-5xl text-center select-none pt-48 md:pt-32'>
         <div className='md:text-3xl italic text-orange-100'>

@@ -30,7 +30,7 @@ const MobileMenu = () => {
         } transition-transform duration-300`}
       >
         <button
-          className='absolute top-8 right-4 text-3xl focus:outline-none text-white'
+          className='absolute top-8 right-4 text-3xl text-white'
           onClick={() => setIsOpen(false)}
         >
           ✖

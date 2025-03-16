@@ -6,11 +6,10 @@ const BoiCanh = () => {
   return (
     <div>
       <Image
-        className='blur-sm -z-10 brightness-50'
+        className='!fixed blur-sm -z-10 brightness-50 object-cover'
         src='/daithangmuaxuan.png'
         alt='daithangmuaxuan'
-        layout='fill'
-        objectFit='cover'
+        fill
       />
       <div className='flex flex-col md:flex-row w-full items-center'>
         <div className='md:w-2/5 md:pl-30 md:py-10'>
@@ -24,7 +23,7 @@ const BoiCanh = () => {
         </div>
         <div className='md:w-3/5 text-center py-7'>
           <div className='text-2xl font-bold text-white'>
-            Bối cảnh lịch sử nước Việt Nam
+            Bối cảnh lịch sử Việt Nam sau 30/4/1975
           </div>
           <div className='text-left px-10 py-4 space-y-2'>
             <div>

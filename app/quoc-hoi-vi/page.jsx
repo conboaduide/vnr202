@@ -5,11 +5,10 @@ const QuocHoiKhoaVI = () => {
   return (
     <div>
       <Image
-        className='blur-sm -z-10 brightness-50'
+        className='!fixed blur-sm -z-10 brightness-50 object-cover'
         src='/quochoikhoavi.png'
         alt='quochoikhoavi'
-        layout='fill'
-        objectFit='cover'
+        fill
       />
     </div>
   );

@@ -5,11 +5,10 @@ const DaiHoiIV = () => {
   return (
     <div>
       <Image
-        className='blur-sm -z-10 brightness-50'
+        className='!fixed blur-sm -z-10 brightness-50 object-cover'
         src='/daihoiiv.png'
         alt='daihoiiv'
-        layout='fill'
-        objectFit='cover'
+        fill
       />
     </div>
   );
