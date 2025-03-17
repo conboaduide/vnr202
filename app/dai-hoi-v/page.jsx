@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import ImageDialog from '../_components/utils/ImageDialog';
 import Link from 'next/link';
+import Card from '../_components/utils/Card';
 
 const DaiHoiV = () => {
   return (
@@ -76,7 +77,7 @@ const DaiHoiV = () => {
                 <p>- Đồng chí Lê Duẩn được bầu lại làm Tổng Bí thư của Đảng.</p>
               </div>
             </div>
-            <div>
+            <div className='hidden md:block'>
               <Image
                 className='border-red-500 border-2 m-auto'
                 src='/leduan.png'
@@ -86,55 +87,293 @@ const DaiHoiV = () => {
               />
               <div className='text-center mt-2'>Tổng bí thư Lê Duẩn</div>
             </div>
+            <div className='md:hidden text-center'>
+              <ImageDialog
+                src='/leduan.png'
+                title='Tổng bí thư Lê Duẩn'
+                height={500}
+                width={200}
+              />
+            </div>
           </div>
         </section>
 
         <section className='h-screen flex flex-col justify-center items-center text-white px-6 snap-start'>
           <p className='text-center font-semibold max-w-5xl mt-4 mb-2 text-2xl'>
-            Đại hội V đã bổ sung đường lối chung do Đại hội IV đề ra những quan
-            điểm mới:
+            Nội dung của Đại hội V:
+          </p>
+          <div className='text-center max-w-4xl space-y-1'>
+            <p>
+              Đại hội thảo luận và thông qua các văn kiện: Báo cáo chính trị;
+              Phương hướng, nhiệm vụ và những mục tiêu chủ yếu về kinh tế và xã
+              hội trong 5 năm (1981- 1985) và những năm 80; Báo cáo xây dựng
+              Đảng và Điều lệ Đảng(bổ sung và sửa đổi). Nội dung cơ bản của
+              những văn kiện đó là:
+            </p>
+            <a className='font-bold hover:cursor-pointer' href='#noi-dung-1'>
+              Đọc tiếp...
+            </a>
+          </div>
+        </section>
+
+        <section
+          id='noi-dung-1'
+          className='h-screen flex flex-col justify-center items-center text-white px-6 snap-start'
+        >
+          <p className='text-center font-semibold max-w-5xl mt-4 mb-2 text-2xl'>
+            Về chính trị
           </p>
           <div className='text-left max-w-4xl space-y-1'>
             <p>
-              • Khẳng định nước ta đang ở chặng đường đầu tiên của thời kỳ quá
-              độ lên chủ nghĩa xã hội với với những khó khăn về kinh tế, chính
-              trị, văn hoá, xã hội. Đó là thời kỳ khó khăn, phức tạp, lâu dài,
-              phải trải qua nhiều chặng đường.
+              Chỉ ra 3 thắng lợi trong 5 năm thực hiện Nghị quyết Đại hội IV:
             </p>
             <p>
-              • Hiện nay nước ta đang ở chặng đường đầu tiên với nội dung kinh
-              tế, chính trị, văn hoá, xã hội rất nặng nề. Chặng đường trước mắt
-              bao gồm thời kỳ 5 năm 1981-1985 và kéo dài đến những năm 1990 là
-              khoảng thời gian có tầm quan trọng đặc biệt.
+              • Nhanh chóng thống nhất đất nước về mặt Nhà nước, thực hiện một
+              bước quyền làm chủ tập thể của nhân dân lao động.
             </p>
             <p>
-              • Nhiệm vụ của chặng đường trước mắt là ổn định tiến lên cải thiện
-              một bước đời sống vật chất và văn hóa của nhân dân. Tiếp tục xây
-              dựng cơ sở vật chất-kỹ thuật của chủ nghĩa xã hội, chủ yếu nhằm
-              thúc đẩy sản xuất nông nghiệp, hàng tiêu dùng và xuất khẩu. Đáp
-              ứng nhu cầu của công cuộc phòng thủ đất nước, củng cố quốc phòng,
-              giữ vững an ninh, trật tự xã hội.
+              • Giành thắng lợi trong cuộc chiến tranh bảo vệ Tổ quốc ở hai đầu
+              biên giới, bảo vệ thành công độc lập, chủ quyền và toàn vẹn lãnh
+              thổ đất nước, giúp đỡ Mặt trận đoàn kết dân tộc cứu nước
+              Campuchia, cứu dân tộc Khmer khỏi họa diệt chủng.
+            </p>
+            <p>
+              • Đạt được những thành tựu đáng kể trên mặt trận kinh tế. bước đầu
+              khắc phục những hậu quả nặng nề do chiến tranh xâm lược và thiên
+              tai liên tiếp xảy ra.
+            </p>
+          </div>
+        </section>
+
+        <section
+          id='noi-dung-2'
+          className='h-screen flex flex-col justify-center items-center text-white px-6 snap-start'
+        >
+          <p className='text-center font-semibold max-w-5xl mt-4 mb-2 text-2xl'>
+            Về chính trị
+          </p>
+          <div className='text-left max-w-4xl space-y-1'>
+            <p>
+              Xuất phát từ thực tiễn, Đại hội đã nêu lên hai nhiệm vụ chiến lược
+              của cách mạng nước ta trong giai đoạn mới:
+            </p>
+            <p>• Xây dựng thành công chủ nghĩa xã hội.</p>
+            <p>
+              • Sẵn sàng chiến đấu, bảo vệ vững chắc Tổ quốc Việt Nam xã hội chủ
+              nghĩa.
+            </p>
+            <p className='font-semibold'>
+              → Hai nhiệm vụ chiến lược đó có quan hệ mật thiết với nhau.
+            </p>
+          </div>
+        </section>
+
+        <section
+          id='noi-dung-3'
+          className='h-screen flex flex-col justify-center items-center text-white px-6 snap-start'
+        >
+          <p className='text-center font-semibold max-w-5xl mt-4 mb-2 text-2xl'>
+            Về kinh tế - xã hội
+          </p>
+          <div className='text-left max-w-4xl space-y-1'>
+            <p>
+              Xác định chặng đường đầu tiên của thời kỳ quá độ, bao gồm giai
+              đoạn 1981 - 1985 và kéo dài đến năm 1990. "Là khoảng thời gian có
+              tầm quan trọng đặc biệt", nhiệm vụ cần thiết trước mắt là ổn định
+              tình hình kinh tế - xã hội:
+            </p>
+            <p>
+              • "Cần tập trung sức mạnh phát triển nông nghiệp”, tập trung phát
+              triển nông nghiệp là mặt trận hàng đầu.
+            </p>
+            <p>
+              • Đẩy mạnh sản xuất hàng tiêu dùng và phát triển một số ngành công
+              nghiệp nặng quan trọng.
+            </p>
+            <p className='font-semibold'>
+              → Kết hợp công - nông hợp lý, chương trình ba mục tiêu: hàng lương
+              thực, thực phẩm; hàng tiêu dùng; hàng xuất khẩu. * Nông nghiệp là
+              mặt trận hàng đầu.
+            </p>
+          </div>
+        </section>
+
+        <section
+          id='cong-nghiep-nang'
+          className='h-screen flex flex-col justify-center items-center text-white px-6 snap-start'
+        >
+          <p className='text-center font-semibold max-w-5xl mt-4 mb-6 text-2xl'>
+            Các ngành công nghiệp nặng:
+          </p>
+          <div className='max-w-6xl space-y-1'>
+            <div className='pl-4 flex-col flex md:flex-row items-center justify-center space-x-4'>
+              <div className='flex md:flex-row md:space-x-4'>
+                <Card src='/luyenkim.png' title='Luyện kim' />
+                <Card src='/cokhichetao.png' title='Cơ khí chế tạo' />
+              </div>
+              <div className='flex md:flex-row md:space-x-4'>
+                <Card src='/hoachat.png' title='Hóa chất' />
+                <Card src='/dienluc.png' title='Điện lực' />
+              </div>
+              <div>
+                <Card
+                  src='/khaithackhoangsan.png'
+                  title='Khai thác khoáng sản'
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id='noi-dung-3'
+          className='h-screen flex flex-col justify-center items-center text-white px-6 snap-start'
+        >
+          <p className='text-center font-semibold max-w-5xl mt-4 mb-2 text-2xl'>
+            Về kinh tế - xã hội
+          </p>
+          <div className='text-left max-w-4xl space-y-1'>
+            <p>Trong một thời gian nhất định cơ cấu kinh tế:</p>
+            <p>
+              • Miền Bắc có 3 thành phần kinh tế (quốc doanh, tập thể, cá thể).
+            </p>
+            <p>
+              • Miền Nam có 5 thành phần kinh tế (quốc doanh, tập thể, công tư
+              hợp doanh, cá thể, tư bản tư nhân).
+            </p>
+            <p>Chủ trương đổi mới cơ chế quản lý kinh tế:</p>
+            <p>• Lấy kế hoạch nhà nước làm trung tâm.</p>
+            <p>
+              • Vận dụng các đòn bẩy kinh tế, khuyến khích sáng kiến và tài
+              năng.
+            </p>
+            <p>• Nâng cao hiệu lực điều hành của các cấp quản lý.</p>
+          </div>
+        </section>
+
+        <section
+          id='noi-dung-3'
+          className='h-screen flex flex-col justify-center items-center text-white px-6 snap-start'
+        >
+          <p className='text-center font-semibold max-w-5xl mt-4 mb-2 text-2xl'>
+            Các chỉ tiêu phát triển kinh tế - xã hội (1981-1985)
+          </p>
+          <div className='text-left max-w-4xl space-y-1'>
+            <p>• Sản xuất nông nghiệp tăng trung bình 6 - 7%/năm.</p>
+            <p>• Sản xuất công nghiệp tăng trung bình 4 - 5%/năm.</p>
+            <p>• Thu nhập quốc dân tăng trung bình 4,5 - 5%.</p>
+            <p>• Sản lượng lương thực tăng 32%.</p>
+          </div>
+        </section>
+
+        <section className='h-screen flex flex-col justify-center items-center text-white px-6 snap-start'>
+          <p className='text-center font-semibold max-w-5xl mt-4 mb-2 text-2xl'>
+            Về đối ngoại
+          </p>
+          <div className='text-center max-w-4xl space-y-1'>
+            <p>• Đoàn kết với các lực lượng cách mạng và tiến bộ thế giới.</p>
+            <p className='flex'>
+              • Ủng hộ mạnh mẽ cuộc đấu tranh của nhân dân các nước chống chính
+              sách hiếu chiến và xâm lược của chủ nghĩa đế quốc, đứng đầu là đế
+              quốc Mỹ.
+            </p>
+            <p>
+              • Đoàn kết và hợp tác toàn diện với Liên Xô; Quan hệ đặc biệt với
+              Lào.
+            </p>
+            <p>
+              • Thiết lập và mở rộng quan hệ bình thường về mặt Nhà nước, về
+              kinh tế, văn hoá và khoa học, kỹ thuật với tất cả các nước, không
+              phân biệt chế độ chính trị, xã hội, trên cơ sở tôn trọng độc lập,
+              chủ quyền, bình đẳng và cùng có lợi
             </p>
           </div>
         </section>
 
         <section className='h-screen flex flex-col justify-center items-center text-white px-6 snap-start'>
           <p className='text-center font-semibold max-w-5xl mt-4 mb-2 text-2xl'>
-            Đường lối cách mạng:
+            Thành tựu nổi bật
+          </p>
+          <div className='text-center md:text-left md:max-w-4xl space-y-1'>
+            <p>
+              Kế hoạch 5 năm 1981-1985 do Đại hội đề ra đã đạt được nhiều thành
+              tựu nhưng chủ yếu là trong nông nghiệp.
+            </p>
+            <p>Khoa học kỹ thuật được triển khai mạnh mẽ:</p>
+            <p className='hidden md:block'>
+              • Bắt đầu khai thác dầu mỏ với sự hợp tác của Liên Xô, đặc biệt là
+              tại mỏ Bạch Hổ.
+            </p>
+            <p className='hidden md:block'>
+              • Xây dựng nhiều công trình thủy điện quan trọng như Thủy điện Hòa
+              Bình, Thủy điện Trị An.
+            </p>
+            <div className='hidden mt-4 md:flex flex-row justify-center space-x-10'>
+              <Card src='/mobachho.png' title='Mỏ Bạch Hổ' />
+              <Card src='/thuydienhoabinh.png' title='Thủy điện Hòa Bình' />
+              <Card src='/thuydientrian.png' title='Thủy điện Trị An' />
+            </div>
+            <div className='md:hidden flex flex-col justify-center items-center'>
+              <Card src='/mobachho.png' title='Mỏ Bạch Hổ' />
+              <div className='flex'>
+                <Card src='/thuydienhoabinh.png' title='Thủy điện Hòa Bình' />
+                <Card src='/thuydientrian.png' title='Thủy điện Trị An' />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className='h-screen flex flex-col justify-center items-center text-white px-6 snap-start'>
+          <p className='text-center font-semibold max-w-5xl mt-4 mb-2 text-2xl'>
+            Một số hạn chế
           </p>
           <div className='text-left max-w-4xl space-y-1'>
             <p>
-              • Chính trị: cơ bản giữ nguyên như Đại hội IV, tăng cường tính
-              giai cấp công nhân.
+              • Kinh tế mất cân đối lớn: <br />
+              &nbsp;- Kinh tế quốc doanh và tập thể thua lỗ nặng, không phát huy
+              tác dụng.
+              <br />
+              &nbsp;- Kinh tế tư nhân và cá thể vẫn bị ngăn cấm triệt để.
+              <br />
+              &nbsp;- Sản xuất chậm phát triển, thu nhập quốc dân và năng suất
+              lao động thấp.
+              <br />
+              &nbsp;- Đời sống nhân dân khó khăn, xã hội phát sinh nhiều hiện
+              tượng tiêu cực.
             </p>
             <p>
-              • Kinh tế: kết hợp công - nông hợp lý, chương trình ba mục tiêu:
-              hàng lương thực, thực phẩm; hàng tiêu dùng; hàng xuất khẩu. * Nông
-              nghiệp là mặt trận hàng đầu.
+              • Chính sách nông nghiệp chưa đủ mạnh: chưa có những chính sách,
+              giải pháp cụ thể để giải phóng lực lượng sản xuất trong nông
+              nghiệp.
             </p>
             <p>
-              • Đối ngoại: quan hệ với Liên Xô là hòn đá tảng, quan hệ Việt Nam
-              - Lào - Campuchia có ý nghĩa sống còn, kêu gọi ASEAN đối thoại.
+              • Chính sách đối ngoại chưa hiệu quả: chưa đưa ra được giải pháp
+              hữu hiệu để giúp đất nước thoát khỏi thế bị bao vây, cô lập.
+            </p>
+          </div>
+        </section>
+
+        <section
+          id='noi-dung-cuoi'
+          className='h-screen flex flex-col justify-center items-center text-white px-6 snap-start'
+        >
+          <p className='text-center font-semibold max-w-5xl mt-4 mb-2 text-2xl'>
+            Ý nghĩa của Đại hội V
+          </p>
+          <div className='text-left max-w-4xl space-y-1'>
+            <p>
+              • Phản ánh tư duy đổi mới từng bước của Đảng trong việc tìm tòi,
+              tổng kết thực tiễn, đề ra hướng đi phù hợp với điều kiện thực tế.
+            </p>
+            <p>
+              • Xây dựng cơ cấu kinh tế và cơ chế quản lý phù hợp với giai đoạn
+              đầu của thời kỳ quá độ lên chủ nghĩa xã hội.
+            </p>
+            <p>
+              • Nội dung của chặng đường đầu tiên là chuẩn bị những tiền đề cần
+              thiết về kinh tế, kỹ thuật để đẩy mạnh công nghiệp hóa xã hội chủ
+              nghĩa, khắc phục khủng hoảng kinh tế - xã hội, chăm lo đời sống
+              của nhân dân.
             </p>
           </div>
           <div className='relative flex justify-center text-center mt-4'>

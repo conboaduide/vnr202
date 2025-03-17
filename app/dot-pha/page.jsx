@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import ImageDialog from '../_components/utils/ImageDialog';
+import ImageDialogGrid from '../_components/utils/ImageDialogGrid';
 
 const DotPha = () => {
   return (
@@ -92,71 +93,81 @@ const DotPha = () => {
           <h2 className='text-2xl font-semibold pt-10 mb-4'>
             Tiền giấy năm 1985
           </h2>
-          <div className='flex md:flex-col space-y-2'>
-            <div className='md:flex space-x-2'>
-              <Image src='/5hao-1985.png' alt='5hao' width={200} height={200} />
-              <Image
-                src='/1dong-1985.png'
-                alt='5hao'
-                width={200}
-                height={200}
-              />
-              <Image
-                src='/2dong-1985.png'
-                alt='5hao'
-                width={200}
-                height={200}
-              />
-              <Image
-                src='/5dong-1985.png'
-                alt='5hao'
-                width={200}
-                height={200}
-              />
-              <Image
-                src='/10dong-1985.png'
-                alt='5hao'
-                width={200}
-                height={200}
-              />
-              <Image
-                src='/20dong-1985.png'
-                alt='5hao'
-                width={200}
-                height={200}
-              />
-            </div>
-            <div className='md:flex space-x-2'>
-              <Image
-                src='/30dong-1985.png'
-                alt='5hao'
-                width={200}
-                height={200}
-              />
-              <Image
-                src='/50dong-1985.png'
-                alt='5hao'
-                width={200}
-                height={200}
-              />
-              <Image
-                src='/50dong-1985-2.png'
-                alt='5hao'
-                width={200}
-                height={200}
-              />
-              <Image
-                src='/100dong-1985.png'
-                alt='5hao'
-                width={200}
-                height={200}
-              />
-              <Image
-                src='/500dong-1985.png'
-                alt='5hao'
-                width={200}
-                height={200}
-              />
+          <div className='md:hidden'>
+            <ImageDialogGrid />
+          </div>
+          <div className='hidden md:block'>
+            <div className='flex md:flex-col space-y-2'>
+              <div className='md:flex space-x-2'>
+                <Image
+                  src='/5hao-1985.png'
+                  alt='5hao'
+                  width={200}
+                  height={200}
+                />
+                <Image
+                  src='/1dong-1985.png'
+                  alt='5hao'
+                  width={200}
+                  height={200}
+                />
+                <Image
+                  src='/2dong-1985.png'
+                  alt='5hao'
+                  width={200}
+                  height={200}
+                />
+                <Image
+                  src='/5dong-1985.png'
+                  alt='5hao'
+                  width={200}
+                  height={200}
+                />
+                <Image
+                  src='/10dong-1985.png'
+                  alt='5hao'
+                  width={200}
+                  height={200}
+                />
+                <Image
+                  src='/20dong-1985.png'
+                  alt='5hao'
+                  width={200}
+                  height={200}
+                />
+              </div>
+              <div className='md:flex space-x-2'>
+                <Image
+                  src='/30dong-1985.png'
+                  alt='5hao'
+                  width={200}
+                  height={200}
+                />
+                <Image
+                  src='/50dong-1985.png'
+                  alt='5hao'
+                  width={200}
+                  height={200}
+                />
+                <Image
+                  src='/50dong-1985-2.png'
+                  alt='5hao'
+                  width={200}
+                  height={200}
+                />
+                <Image
+                  src='/100dong-1985.png'
+                  alt='5hao'
+                  width={200}
+                  height={200}
+                />
+                <Image
+                  src='/500dong-1985.png'
+                  alt='5hao'
+                  width={200}
+                  height={200}
+                />
+              </div>
             </div>
           </div>
         </section>
