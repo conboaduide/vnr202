@@ -5,7 +5,7 @@ import React from 'react';
 
 export const paths = [
   { path: '/', title: 'TRANG CHỦ' },
-  { path: '/boi-canh', title: 'BỐI CẢNH' },
+  // { path: '/boi-canh', title: 'BỐI CẢNH' },
   { path: '/quoc-hoi-vi', title: 'QUỐC HỘI KHÓA VI' },
   { path: '/dai-hoi-iv', title: 'ĐẠI HỘI IV' },
   { path: '/dai-hoi-v', title: 'ĐẠI HỘI V' },

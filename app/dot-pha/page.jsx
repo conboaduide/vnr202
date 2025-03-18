@@ -230,7 +230,7 @@ const DotPha = () => {
         </Section>
         <Section id='hoi-nghi-trung-uong-8'>
           <div className='mt-12'></div>
-          <div className='mt-12 max-w-4xl text-center'>
+          <div className='mt-12 max-w-5xl text-center'>
             <SectionHeading>
               Hội nghị Trung ương 8 khóa V (6/1985)
             </SectionHeading>

@@ -359,7 +359,7 @@ const QuocHoiKhoaVI = () => {
         <Section id='hiep-uoc-quoc-te'>
           <SectionHeading>Các hiệp ước quốc tế quan trọng</SectionHeading>
 
-          <div className='max-w-4xl mx-auto'>
+          <div className='max-w-5xl mx-auto'>
             <div
               className='bg-black/40 backdrop-blur-sm p-6 rounded-lg border-l-4 border-yellow-500 animate-fadeIn mb-8'
               style={{ animationDelay: '200ms' }}
@@ -519,10 +519,10 @@ const QuocHoiKhoaVI = () => {
 
           <div className='relative flex justify-center text-center mt-4'>
             <Link
-              href='/dai-hoi-v'
+              href='/dai-hoi-iv'
               className='group relative inline-block overflow-hidden rounded px-12 py-4 text-lg text-yellow-100 font-medium hover:cursor-pointer select-none z-10 bg-gradient-to-r from-yellow-900/60 to-yellow-700/60 hover:from-yellow-800/80 hover:to-yellow-600/80 transition-all duration-300'
             >
-              Quay lại Đại hội V
+              Tiến tới Đại hội IV
               <span className='absolute left-0 top-0 w-0 border-t-2 border-yellow-400 animate-top'></span>
               <span className='absolute right-0 top-0 h-0 border-r-2 border-yellow-400 animate-right'></span>
               <span className='absolute bottom-0 right-0 w-0 border-b-2 border-yellow-400 animate-bottom'></span>
