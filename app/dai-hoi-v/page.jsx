@@ -121,7 +121,7 @@ const DaiHoiV = () => {
           className='h-screen flex flex-col justify-center items-center text-white px-6 snap-start'
         >
           <p className='text-center font-semibold max-w-5xl mt-4 mb-2 text-2xl'>
-            Về chính trị
+            Những thành tựu quan trọng trước Đại hội V
           </p>
           <div className='text-left max-w-4xl space-y-1'>
             <p>
@@ -150,7 +150,7 @@ const DaiHoiV = () => {
           className='h-screen flex flex-col justify-center items-center text-white px-6 snap-start'
         >
           <p className='text-center font-semibold max-w-5xl mt-4 mb-2 text-2xl'>
-            Về chính trị
+            Hai nhiệm vụ chiến lược
           </p>
           <div className='text-left max-w-4xl space-y-1'>
             <p>
@@ -173,7 +173,7 @@ const DaiHoiV = () => {
           className='h-screen flex flex-col justify-center items-center text-white px-6 snap-start'
         >
           <p className='text-center font-semibold max-w-5xl mt-4 mb-2 text-2xl'>
-            Về kinh tế - xã hội
+            Định hướng phát triển kinh tế - xã hội
           </p>
           <div className='text-left max-w-4xl space-y-1'>
             <p>
@@ -230,7 +230,7 @@ const DaiHoiV = () => {
           className='h-screen flex flex-col justify-center items-center text-white px-6 snap-start'
         >
           <p className='text-center font-semibold max-w-5xl mt-4 mb-2 text-2xl'>
-            Về kinh tế - xã hội
+            Cơ cấu kinh tế
           </p>
           <div className='text-left max-w-4xl space-y-1'>
             <p>Trong một thời gian nhất định cơ cấu kinh tế:</p>
@@ -268,7 +268,7 @@ const DaiHoiV = () => {
 
         <section className='h-screen flex flex-col justify-center items-center text-white px-6 snap-start'>
           <p className='text-center font-semibold max-w-5xl mt-4 mb-2 text-2xl'>
-            Về đối ngoại
+            Đối ngoại
           </p>
           <div className='text-center max-w-4xl space-y-1'>
             <p>• Đoàn kết với các lực lượng cách mạng và tiến bộ thế giới.</p>
